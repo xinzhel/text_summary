@@ -5,7 +5,7 @@ For papers in the field of Pretrained Language Models:
 * We save summaries from abstracts (short documents) in `plm_abstract_summaries.csv`. We find that CtrlSum will have some distinct features for different attributes. Particulary, CtrlSum is sensitive to demonstrate proposed methods even when we give prompts for experimental results and contributions. 
 * We save summaries from abstracts and introductions (long documents) in `plm_abs_intro_summaries.csv`. 
 Three problems appear for long documents (500 - 750 in contrast to 100-150): 
-  1. less distinct summaries responding to different prompts:
+  1. less distinct summaries responding to different prompts: cannot distinguish prompts (background; methodology; findings;  conclusions/contributions) and generate various aspects in summaries
   2. hallucination: 
   3. repetition.
 * Content Selection for longer documents: extractive and attention-based selection based on LoBART
