@@ -8,4 +8,4 @@ Three problems appear for long documents (500 - 750 in contrast to 100-150):
   1. less distinct summaries responding to different prompts:
   2. hallucination: 
   3. repetition.
-
+* Content Selection for longer documents: extractive and attention-based selection based on LoBART
