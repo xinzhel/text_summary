@@ -3,10 +3,20 @@ import matplotlib.pyplot as plt
 from transformers import PreTrainedTokenizerFast, AutoTokenizer
 from itertools import islice
 import torch
+import json
 import pandas as pd
 
-tokenizer = AutoTokenizer.from_pretrained("facebook/bart-base")
 
+
+def read_json_into_list(file_path):
+    lst_dict = []
+    with open(file_path, "r") as f:
+        lines = f.readlines()
+    for line in lines:
+        lst_dict.append(json.loads(line))
+    return lst_dict
+
+tokenizer = AutoTokenizer.from_pretrained("facebook/bart-base")
 
 def print_statitiscs(articles, summaries=None, target='word_lengths'):
 
