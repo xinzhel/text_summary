@@ -10,7 +10,7 @@ We find that
   + Both CtrlSumm and BigBird will generate redundant information, especially methodology summaries, no matter what sections we give to the models. The image below shows that the methodology spreads over the whole articles.
   ![image](https://user-images.githubusercontent.com/43598514/228387539-aa9f352a-368b-451d-9091-69a4dc383d2a.png)
   + BigBird generates more coherent summaries.
-  + Conclusion: not considered. Even it gives good results, it is not easily to generalize articles without explicit headings.
+  + Conclusion: not considered. Even it gives good results, it is not easily to generalize articles without explicit headings (less than 1/3).
 * Datasets with Faceted Summaries
   + manually generate faceted summaries from the perspectives of purpose/background, methods, experimental results: require many experts with domain knowledge for annotation (可行性差，有人做过吗？)
   + extract faceted summaries from abstract: Not all abstracts contain all the facets.
