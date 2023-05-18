@@ -38,3 +38,6 @@ For long documents, we also find
   ![image](https://user-images.githubusercontent.com/43598514/228387015-22195c77-d13b-4b47-88eb-9335cab6dbc1.png)
 * Develop a classifier to categorize sentences of abstracts into categories 
 * Develop a summarization model. For this part, the current plan is to construct a CTRLSUM-like model, which can take categories as controllable signals.
+
+# Dataset
+[`arxiv-metadata-oai-snapshot.json`](https://www.kaggle.com/datasets/Cornell-University/arxiv)
